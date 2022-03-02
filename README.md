@@ -135,7 +135,7 @@ Open the `/etc/ssh/sshd_config`:
 1. Enable the virtual host:
 
    ```
-   $ sudo a2ensite RestaurantApp
+   $ sudo a2ensite /etc/apache2/sites-available/restaurant_catalog.conf
    ```
 
 1. Restart Apache server:
